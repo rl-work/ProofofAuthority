@@ -1,1 +1,1 @@
-# ProofofAuthority
+# Proof of Authority
