@@ -14,34 +14,16 @@ After downloading the tools archive, open your "Downloads" folder, and you will 
 
 Decompress the archive in the location of your preference in your computer's hard drive, and rename the containing folder as Blockchain-Tools.
 
-You have finished the installation process.
 
-To install MyCrypto Desktop App:
+NEXT, we need to to install MyCrypto Desktop App:
 
 Open your browser and navigate to the downloads page at https://download.mycrypto.com/.
-
-Depending on your operating system, you will be redirected to the corresponding application installer.
-
-Once you download the installer, open the file, and follow the installation wizard.
-
-Open up the MyCrypto app.
-
-Click "Create a new wallet" on the left.
-
-Choose "Generate a wallet".
-
-Use the "Mnemonic Phrase" option. MyCrypto will generate a unique mnemonic phrase for you, write down this phrase in order and save it somewhere safe.
-
-You will need to confirm the phrase by clicking your words in order:
-
-Once you are done, you will see the steps you will need to unlock your account in the future. Unlock your wallet by going to "View & Send" and pick "Mnemonic Phrase."
-
-Type your mnemonic phrase, with spaces (you can click the eye to view it), then continue to choose an address.
-
-Once you pick an address to unlock, copy the address on the right hand side.
-
-Go into Wallet info and click the eye to see your private key. Save your address and private key in a safe place.
-
+Choose the install necessary for you operating system. Once the install is downloaded, open and follow installation prompts.
+Open the app and choose 'Create a new wallet', then 'Generate a wallet'.
+It is MOST SAFE to use the "Mnemonic Phrase" option. MyCrypto will generate a unique mnemonic phrase for you; PLEASE STORE IT SOMEWHERE SAFE, OFFLINE!!
+Confirm the mnemonic code by selecting the words IN THE SAME ORDER you were given them.
+Unlock your wallet by going to "View & Send" and pick "Mnemonic Phrase." Onve you begin to enter the mnemonic phrase, please leave a space between each word. Submit password and choose a wallet address. 
+Once the address is chosen, copy it (begins with '0x') as well as your private key. NEVER SHARE YOUR WALLET ADDRESS OR PRIVATE KEY WITH ANYONE!!
 At the bottom left of the app, click "Change network" and select "Kovan" testnet.
 
 The steps to set up a genesis block:
@@ -111,9 +93,7 @@ Type ETH in the Currency box.
 
 In the Chain ID box, type the chain id you generated during genesis creation.
 
-In the URL box type: http://127.0.0.1:8545. This points to the default RPC port on your local machine.
-
-Finally, click Save & Use Custom Node.
+In the URL box, copy and paste: http://127.0.0.1:8545. (default RPC port on your machine). Then you can save & USE CUSTOM NODE.
 
 After connecting to the custom network in MyCrypto, it can be tested by sending money between accounts.
 
